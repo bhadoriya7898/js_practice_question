@@ -81,3 +81,40 @@
 // arr.forEach((val,i)=>{
 //     console.log(val,"=====",i);
 // });
+
+// let arr = [1,2,3,4,5];
+// let newArr = arr.map(val=>val*2);
+// let newArr = arr.map(val => {
+//     let res = val*3;
+//     return res;
+// });
+// console.log(newArr);
+
+// let arrObj = [{name: "Himanshu", age: 21, address: "Mangliya"}, {name: "Vishal", age: 23, address: "Ujjain"},{name: "Yamini", age: 29, address: "Kutlya khedi"}]
+// let newArr = arrObj.map(val=>{
+//     return val.name+" "+val.age;
+// });
+// console.log(newArr);
+
+// let arr = [1,2,3,4,5];
+// let newArr = arr.filter(val => val > 3);
+// let newArr = arr.filter(val => {
+//     if(val > 3){
+//         return val*2;
+//     }
+// });
+// console.log(newArr);
+
+// let arrObj = [{name: "Himanshu", age: 21, address: "Mangliya"}, {name: "Vishal", age: 23, address: "Ujjain"},{name: "Yamini", age: 29, address: "Kutlya khedi"}]
+
+// let newArr = arrObj.filter(val => val.age>22);
+// console.log(newArr);
+
+
+// let arrObj = [{name: "Himanshu", last_name: "Bhadoriya", age: 21, address: "Mangliya"}, {name: "Vishal", last_name: "Sharma", age: 23, address: "Ujjain"},{name: "Yamini", last_name: "Chouhan", age: 29, address: "Kutlya khedi"}]
+
+// let newArr = arrObj.filter(val => val.age>22);
+// let newArr1 = newArr.map(val => val.name+" "+val.last_name);
+
+// let newArr = arrObj.filter(val => val.age>22).map(val => val.name+" "+val.last_name);
+// console.log(newArr);
